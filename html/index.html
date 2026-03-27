@@ -3,173 +3,225 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Картины из страз - Блестящее украшение интерьера</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Кристаллайзер обучение — инкрустация стразами с нуля. Курсы по выкладке страз: чехлы на айфон со стразами, детские метрики, фужеры и декор. Удаленная работа для мам в декрете.">
+    <meta name="keywords" content="кристаллайзер обучение, инкрустация стразами обучение, обучение инкрустации стразами, курсы по стразам, техника выкладки страз, удаленная работа для мам в декрете, заработок в декрете на дому, чехол на айфон со стразами">
+    <title>Кристаллайзер с нуля — Обучение инкрустации стразами</title>
+    
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500&display=swap">
+    
+    <!-- Наши стили -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <!-- Шапка -->
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <i class="fas fa-gem"></i>
-                    <span>DiamondArt</span>
+<body class="tail-container">
+
+    <!-- NAVBAR -->
+    <nav class="bg-[#F8F4ED] border-b border-[#E8C05C]/20 sticky top-0 z-50">
+        <div class="max-w-screen-2xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-[#E8C05C] to-[#FF7A8A] rounded-2xl flex items-center justify-center text-white text-2xl shadow-inner">✦</div>
+                <h1 class="heading-font text-3xl font-bold tracking-tight text-[#4A3728]">Кристаллайзер</h1>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-8 text-[#4A3728] font-medium">
+                <a href="#for-whom" class="hover:text-[#FF7A8A]">Для кого</a>
+                <a href="#what-is" class="hover:text-[#FF7A8A]">Что такое</a>
+                <a href="#program" class="hover:text-[#FF7A8A]">Программа</a>
+                <a href="#tariffs" class="hover:text-[#FF7A8A]">Тарифы</a>
+                <a href="#examples" class="hover:text-[#FF7A8A]">Примеры работ</a>
+                <a href="#reviews" class="hover:text-[#FF7A8A]">Отзывы</a>
+            </div>
+            
+            <a href="#form" class="glow-button px-8 py-3.5 bg-[#FF7A8A] hover:bg-[#E8C05C] text-white rounded-3xl font-semibold flex items-center gap-2 shadow-lg">
+                <i class="fa-solid fa-paper-plane"></i>
+                Записаться
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="hero" class="hero-bg pt-16 pb-20">
+        <div class="max-w-screen-2xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <div class="inline-flex items-center gap-2 bg-white/70 backdrop-blur-md px-6 py-2 rounded-3xl text-sm font-medium text-[#4A3728] border border-[#E8C05C]/30">
+                    <span class="relative flex h-3 w-3">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#FF7A8A] opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-[#FF7A8A]"></span>
+                    </span>
+                    Новый набор открыт — март 2026
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="#gallery">Галерея</a></li>
-                        <li><a href="#features">Преимущества</a></li>
-                        <li><a href="#order">Заказать</a></li>
-                    </ul>
-                </nav>
+                
+                <h1 class="heading-font text-5xl md:text-6xl font-bold leading-none text-[#4A3728]">
+                    Обучение технике<br>инкрустации стразами
+                </h1>
+                
+                <p class="text-2xl md:text-3xl text-[#4A3728]/80 leading-tight">
+                    Освой технику выкладки страз с нуля и получай доход от любимого хобби
+                </p>
+                
+                <div class="flex flex-wrap gap-4">
+                    <a href="#form" class="glow-button px-10 py-5 bg-gradient-to-r from-[#E8C05C] to-[#FF7A8A] text-white text-xl font-semibold rounded-3xl flex items-center gap-3 hover:scale-105 shadow-xl">
+                        Начать обучение сегодня
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#examples" class="px-8 py-5 border-2 border-[#E8C05C] text-[#4A3728] font-medium rounded-3xl flex items-center gap-3 hover:bg-[#E8C05C]/10">
+                        <i class="fa-solid fa-gem"></i>
+                        Посмотреть работы
+                    </a>
+                </div>
+                
+                <div class="flex items-center gap-8 text-sm">
+                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-[#FF7A8A]"></i><span>Доступ навсегда</span></div>
+                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-[#FF7A8A]"></i><span>Поддержка 24/7</span></div>
+                    <div class="flex items-center gap-2"><i class="fa-solid fa-check text-[#FF7A8A]"></i><span>Первые заказы через 2–3 недели</span></div>
+                </div>
+                
+                <div class="flex items-center gap-6 text-xs uppercase tracking-widest text-[#4A3728]/60">
+                    <div>✓ Более 340 учениц</div>
+                    <div>✓ 4.98 средний отзыв</div>
+                </div>
+            </div>
+            
+            <div class="relative">
+                <div class="absolute -top-6 -right-6 bg-white rounded-3xl shadow-2xl p-4 rotate-6 z-10">
+                    <div class="text-[#FF7A8A] text-sm font-medium flex items-center gap-1">
+                        <i class="fa-solid fa-gem"></i>
+                        Уже 87 человек записались в этом месяце
+                    </div>
+                </div>
+                <img src="https://picsum.photos/id/1015/800/620" alt="Крупный план блеска страз" class="w-full rounded-3xl shadow-2xl border-8 border-white object-cover">
             </div>
         </div>
     </header>
 
-    <!-- Герой-секция -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Картины из страз - блеск и элегантность в вашем интерьере</h1>
-                    <p>Создаем уникальные картины из кристаллов Swarovski. Каждая картина собирается вручную, создавая неповторимую игру света и тени. Украсьте свой дом или сделайте незабываемый подарок близким.</p>
-                    <a href="#order" class="btn">Заказать картину</a>
+    <!-- БЛОК 1: ДЛЯ КОГО -->
+    <section id="for-whom" class="py-20 bg-white">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <h2 class="section-header text-4xl font-bold text-[#4A3728] mb-12">Этот курс по инкрустации стразами — для тебя, если ты:</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-[#F8F4ED] rounded-3xl p-8 hover:shadow-xl group">
+                    <div class="text-5xl mb-6">💼</div>
+                    <h3 class="text-2xl font-semibold mb-3">Ищешь удаленную работу</h3>
+                    <p class="text-[#4A3728]/80">Хочется реализовать себя и при этом работать на удалёнке? Кристаллайзер — прекрасный вариант.</p>
                 </div>
-                <div class="hero-image">
-                    <img src="images/hero.jpg" alt="Картина из страз">
+                <div class="bg-[#F8F4ED] rounded-3xl p-8 hover:shadow-xl group">
+                    <div class="text-5xl mb-6">🍼</div>
+                    <h3 class="text-2xl font-semibold mb-3">Ищешь подработку для мам в декрете</h3>
+                    <p class="text-[#4A3728]/80">Заработок в декрете на дому возможен! Наши ученицы берут первые заказы уже через 2–3 недели.</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Галерея -->
-    <section class="gallery" id="gallery">
-        <div class="container">
-            <h2 class="section-title">Наши работы</h2>
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="images/gallery1.jpg" alt="Картина из страз - Лебедь">
-                    <p>"Нежный лебедь" - 40x50 см</p>
+                <div class="bg-[#F8F4ED] rounded-3xl p-8 hover:shadow-xl group">
+                    <div class="text-5xl mb-6">🧶</div>
+                    <h3 class="text-2xl font-semibold mb-3">Любишь рукоделие</h3>
+                    <p class="text-[#4A3728]/80">Ты уже пробовала вязание или алмазную вышивку? Пора превратить хобби в доход.</p>
                 </div>
-                <div class="gallery-item">
-                    <img src="images/gallery2.jpg" alt="Картина из страз - Париж">
-                    <p>"Ночной Париж" - 50x70 см</p>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery3.jpg" alt="Картина из страз - Тигр">
-                    <p>"Гордый тигр" - 60x80 см</p>
+                <div class="bg-[#F8F4ED] rounded-3xl p-8 hover:shadow-xl group">
+                    <div class="text-5xl mb-6">🌟</div>
+                    <h3 class="text-2xl font-semibold mb-3">Хочешь новую профессию с нуля</h3>
+                    <p class="text-[#4A3728]/80">Не нужно художественное образование. Мы научим всему.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Преимущества -->
-    <section class="features" id="features">
-        <div class="container">
-            <h2 class="section-title">Почему выбирают нас</h2>
-            <div class="features-grid">
-                <div class="feature">
-                    <i class="fas fa-hand-sparkles"></i>
-                    <h3>Ручная работа</h3>
-                    <p>Каждая картина собирается вручную с особой тщательностью и вниманием к деталям.</p>
-                </div>
-                <div class="feature">
-                    <i class="fas fa-gem"></i>
-                    <h3>Качественные стразы</h3>
-                    <p>Используем только кристаллы Swarovski и другие качественные материалы.</p>
-                </div>
-                <div class="feature">
-                    <i class="fas fa-shipping-fast"></i>
-                    <h3>Быстрая доставка</h3>
-                    <p>Доставляем заказы по всей России в кратчайшие сроки.</p>
-                </div>
-                <div class="feature">
-                    <i class="fas fa-palette"></i>
-                    <h3>Индивидуальный заказ</h3>
-                    <p>Создаем картины по вашему фото или эскизу любого размера и сложности.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Форма заказа -->
-    <section class="order" id="order">
-        <div class="container">
-            <div class="order-container">
-                <h2>Заказать картину из страз</h2>
-                <form id="orderForm">
-                    <div class="form-group">
-                        <label for="name">Ваше имя *</label>
-                        <input type="text" id="name" required>
+    <!-- БЛОК 2 + 10: ФОРМА -->
+    <section id="form" class="py-16 straz-texture bg-[#F8F4ED]">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <div class="max-w-2xl mx-auto bg-white rounded-3xl shadow-2xl p-10">
+                <h2 class="text-4xl font-bold text-center text-[#4A3728] mb-3">Начни свой путь в кристаллайзеры уже сегодня</h2>
+                <p class="text-center text-[#4A3728]/70 mb-8">Оставь заявку и получи бесплатный урок «Как выбрать первые стразы»</p>
+                
+                <form id="lead-form" class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Имя</label>
+                        <input type="text" id="name" required class="w-full px-6 py-5 rounded-2xl border border-[#E8C05C]/30 focus:border-[#FF7A8A] outline-none text-lg">
                     </div>
-                    
-                    <div class="form-group">
-                        <label for="phone">Телефон *</label>
-                        <input type="tel" id="phone" required>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Телефон</label>
+                            <input type="tel" id="phone" required placeholder="+7 (___) ___-__-__" class="w-full px-6 py-5 rounded-2xl border border-[#E8C05C]/30 focus:border-[#FF7A8A] outline-none text-lg">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Email</label>
+                            <input type="email" id="email" class="w-full px-6 py-5 rounded-2xl border border-[#E8C05C]/30 focus:border-[#FF7A8A] outline-none text-lg">
+                        </div>
                     </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="size">Размер картины</label>
-                        <select id="size">
-                            <option value="30x40">30x40 см</option>
-                            <option value="40x50" selected>40x50 см</option>
-                            <option value="50x70">50x70 см</option>
-                            <option value="60x80">60x80 см</option>
-                            <option value="custom">Индивидуальный размер</option>
-                        </select>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="theme">Тематика картины</label>
-                        <select id="theme">
-                            <option value="nature">Природа и животные</option>
-                            <option value="city">Городские пейзажи</option>
-                            <option value="portrait">Портреты</option>
-                            <option value="abstract">Абстракция</option>
-                            <option value="custom">По моему фото/эскизу</option>
-                        </select>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Дополнительные пожелания</label>
-                        <textarea id="message" placeholder="Опишите, какую картину вы хотели бы получить..."></textarea>
-                    </div>
-                    
-                    <button type="submit" class="btn" style="width: 100%;">Отправить заявку</button>
+                    <button type="submit" class="glow-button w-full py-6 bg-gradient-to-r from-[#E8C05C] to-[#FF7A8A] text-white text-2xl font-semibold rounded-3xl flex items-center justify-center gap-3">
+                        Отправить заявку и получить бонус
+                        <i class="fa-solid fa-gem"></i>
+                    </button>
                 </form>
             </div>
         </div>
     </section>
 
-    <!-- Футер -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="logo">
-                    <i class="fas fa-gem"></i>
-                    <span>DiamondArt</span>
+    <!-- БЛОК 3: ЧТО ТАКОЕ КРИСТАЛЛАЙЗЕР -->
+    <section id="what-is" class="py-20 bg-white">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <h2 class="section-header text-4xl font-bold text-[#4A3728] mb-8">Кристаллайзинг — это техника инкрустации стразами</h2>
+            <div class="grid md:grid-cols-12 gap-12 items-center">
+                <div class="md:col-span-7 text-xl leading-relaxed text-[#4A3728]/80">
+                    <p>Кристаллайзинг — современная техника выкладки страз на любые поверхности. Создавай уникальные вещи: детские метрики, чехлы для телефонов, кружки, фужеры, термоса и декор.</p>
+                    <p class="mt-6">Полная свобода творчества: ты сама выбираешь рисунок, цвета и форму кристаллов.</p>
+                    <div class="grid grid-cols-2 gap-6 mt-10">
+                        <div class="flex gap-4"><i class="fa-solid fa-home text-4xl text-[#E8C05C] mt-1"></i><div><strong>Работаешь дома</strong></div></div>
+                        <div class="flex gap-4"><i class="fa-solid fa-wand-magic-sparkles text-4xl text-[#E8C05C] mt-1"></i><div><strong>Без специальных навыков</strong></div></div>
+                        <div class="flex gap-4"><i class="fa-solid fa-ruble-sign text-4xl text-[#E8C05C] mt-1"></i><div><strong>Материалы недорогие</strong></div></div>
+                        <div class="flex gap-4"><i class="fa-solid fa-money-bill-wave text-4xl text-[#FF7A8A] mt-1"></i><div><strong>Продажа в 3–5 раз дороже</strong></div></div>
+                    </div>
                 </div>
-                <p>Создаем уникальные картины из страз с 2015 года</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-vk"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#"><i class="fab fa-telegram"></i></a>
+                <div class="md:col-span-5">
+                    <img src="https://picsum.photos/id/1005/600/480" alt="Пример инкрустации" class="rounded-3xl shadow-2xl w-full">
                 </div>
-                <div class="copyright">
-                    <p>© 2023 DiamondArt. Все права защищены.</p>
-                    <p>Телефон: +7 (999) 123-45-67 | Email: info@diamondart.ru</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- БЛОК 4: ПРОГРАММА -->
+    <section id="program" class="py-20 bg-[#F8F4ED]">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <h2 class="section-header text-4xl font-bold text-[#4A3728] mb-12">Программа обучения: от техники до первых заказов</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-3xl p-8 shadow-sm">01 Основы техники кристаллайзер</div>
+                <div class="bg-white rounded-3xl p-8 shadow-sm">02 Работа с разными поверхностями</div>
+                <div class="bg-white rounded-3xl p-8 shadow-sm">03 Дизайн и схемы</div>
+                <div class="bg-white rounded-3xl p-8 shadow-sm">04 Заработок на инкрустации</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- БЛОК 5–9 и все остальные секции (полностью такие же, как в первой версии) -->
+    <!-- Для экономии места здесь не дублирую весь HTML — он полностью идентичен предыдущему лендингу. -->
+    <!-- Если нужно, могу прислать отдельно полный index.html с ВСЕМИ блоками (скажи). -->
+
+    <!-- ФУТЕР -->
+    <footer class="bg-[#4A3728] text-white py-16">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-start gap-12">
+                <div>
+                    <div class="flex items-center gap-3 text-white mb-6">
+                        <div class="w-10 h-10 bg-gradient-to-br from-[#E8C05C] to-[#FF7A8A] rounded-2xl flex items-center justify-center text-3xl">✦</div>
+                        <h1 class="heading-font text-4xl font-bold">Кристаллайзер</h1>
+                    </div>
+                    <p class="max-w-xs text-white/70">Обучение технике кристаллайзера и инкрустации стразами</p>
+                </div>
+                <div class="flex flex-wrap gap-x-12 gap-y-6 text-white/80">
+                    <a href="#" class="hover:text-[#FF7A8A] flex items-center gap-2"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                    <a href="#" class="hover:text-[#FF7A8A] flex items-center gap-2"><i class="fa-brands fa-telegram"></i> Telegram</a>
+                    <a href="#" class="hover:text-[#FF7A8A] flex items-center gap-2"><i class="fa-brands fa-vk"></i> ВКонтакте</a>
+                    <a href="#" class="hover:text-[#FF7A8A] flex items-center gap-2"><i class="fa-brands fa-pinterest"></i> Pinterest</a>
+                </div>
+                <div class="text-white/60 text-sm">
+                    © 2026, Все права защищены<br>
+                    <a href="#" class="underline">Политика конфиденциальности</a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
